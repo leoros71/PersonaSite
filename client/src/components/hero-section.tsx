@@ -34,7 +34,7 @@ export default function HeroSection() {
               Hello, I'm <span className="text-gradient">Leopoldo Rossi</span>
             </h1>
             <p className="text-xl md:text-2xl text-gray-300 mb-8" data-testid="hero-subtitle">
-              Financial Technology Expert & Software Developer
+              E-Trading Architect & ION Trading Specialist
             </p>
             <p className="text-lg text-gray-400 mb-8 leading-relaxed" data-testid="hero-description">
               Specializing in electronic trading systems, algorithmic trading solutions, and financial markets technology with 25+ years of experience.

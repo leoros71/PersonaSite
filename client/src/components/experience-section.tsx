@@ -4,10 +4,10 @@ export default function ExperienceSection() {
   const experiences = [
     {
       icon: TrendingUp,
-      title: "Ion Marketview Consultant",
+      title: "ION Trading Specialist",
       company: "BBVA",
-      period: "Feb 2022 - Present",
-      description: "ION TRADING specialist providing Level 1&2 support, infrastructure development, topology design, platform reviews, and component upgrades for production environments.",
+      period: "Feb 2023 - Present",
+      description: "ION Marketview support & development of infrastructure. Providing specialized expertise in ION trading systems, architecture design, and platform optimization in hybrid work environment.",
       side: "right"
     },
     {
@@ -21,24 +21,24 @@ export default function ExperienceSection() {
     {
       icon: Code,
       title: "E-Trading Architect",
-      company: "CA-CIB",
-      period: "May 2010 - Aug 2017",
+      company: "Credit Agricole",
+      period: "2010 - Aug 2017",
       description: "Managed architectural and technical projects for Fixed Income e-Trading platform across London, Paris, NY, Singapore, Tokyo, and Dubai. Led platform migrations and performance optimizations.",
       side: "right"
     },
     {
       icon: Building2,
-      title: "Business Analyst & Software Developer",
-      company: "ION TRADING",
-      period: "Apr 2001 - Apr 2010",
+      title: "Market Gateways & Trading Tools Developer",
+      company: "ION Trading",
+      period: "Mar 2001 - Mar 2010",
       description: "Managed complete lifecycle of market gateways and trading tools. Developed multi-threaded server applications for real-time financial data processing including LIFFE, CBOT, ICE, EURONEXT gateways.",
       side: "left"
     },
     {
       icon: Briefcase,
-      title: "Product Engineer",
-      company: "MICROTEST",
-      period: "1999 - Apr 2001",
+      title: "Software Engineer",
+      company: "Microtest Srl",
+      period: "1999 - Mar 2001",
       description: "Consultant at STMicroelectronics, programming testers in C language. Worked across Munich, Regensburg, and Toulouse design centers and production facilities.",
       side: "right"
     }
