@@ -1,4 +1,4 @@
-import { Linkedin, Twitter, Github, Mail } from "lucide-react";
+import { Linkedin, Mail } from "lucide-react";
 
 export default function Footer() {
   const handleNavClick = (href: string) => {
@@ -22,8 +22,6 @@ export default function Footer() {
 
   const socialLinks = [
     { icon: Linkedin, href: "https://www.linkedin.com/in/leopoldo-rossi-5b980614", label: "LinkedIn" },
-    { icon: Twitter, href: "#", label: "Twitter" },
-    { icon: Github, href: "#", label: "GitHub" },
     { icon: Mail, href: "mailto:rossi.leopoldo@gmail.com", label: "Email" },
   ];
 

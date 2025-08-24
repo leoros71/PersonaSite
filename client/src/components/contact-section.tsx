@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Mail, Phone, MapPin, Linkedin, Twitter, Github } from "lucide-react";
+import { Mail, Phone, MapPin, Linkedin } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
@@ -134,18 +134,11 @@ export default function ContactSection() {
                   <Linkedin className="w-5 h-5" />
                 </a>
                 <a 
-                  href="#" 
+                  href="mailto:rossi.leopoldo@gmail.com" 
                   className="bg-white/10 hover:bg-professional-accent p-3 rounded-lg transition-all duration-300 transform hover:scale-110"
-                  data-testid="contact-twitter"
+                  data-testid="contact-email"
                 >
-                  <Twitter className="w-5 h-5" />
-                </a>
-                <a 
-                  href="#" 
-                  className="bg-white/10 hover:bg-professional-accent p-3 rounded-lg transition-all duration-300 transform hover:scale-110"
-                  data-testid="contact-github"
-                >
-                  <Github className="w-5 h-5" />
+                  <Mail className="w-5 h-5" />
                 </a>
               </div>
             </div>

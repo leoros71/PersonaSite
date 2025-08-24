@@ -1,4 +1,4 @@
-import { ChevronDown, Linkedin, Twitter, Github, Mail } from "lucide-react";
+import { ChevronDown, Linkedin, Mail } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import profileImage from "@assets/immagine_1756048642034.png";
 
@@ -70,21 +70,7 @@ export default function HeroSection() {
                 <Linkedin className="w-6 h-6" />
               </a>
               <a 
-                href="#" 
-                className="text-gray-300 hover:text-professional-accent transition-colors duration-300 transform hover:scale-110"
-                data-testid="link-twitter"
-              >
-                <Twitter className="w-6 h-6" />
-              </a>
-              <a 
-                href="#" 
-                className="text-gray-300 hover:text-professional-accent transition-colors duration-300 transform hover:scale-110"
-                data-testid="link-github"
-              >
-                <Github className="w-6 h-6" />
-              </a>
-              <a 
-                href="#" 
+                href="mailto:rossi.leopoldo@gmail.com" 
                 className="text-gray-300 hover:text-professional-accent transition-colors duration-300 transform hover:scale-110"
                 data-testid="link-email"
               >
