@@ -4,7 +4,6 @@ import AboutSection from "@/components/about-section";
 import SkillsSection from "@/components/skills-section";
 import ExperienceSection from "@/components/experience-section";
 import PortfolioSection from "@/components/portfolio-section";
-import TestimonialsSection from "@/components/testimonials-section";
 import ContactSection from "@/components/contact-section";
 import Footer from "@/components/footer";
 
@@ -17,7 +16,6 @@ export default function Home() {
       <SkillsSection />
       <ExperienceSection />
       <PortfolioSection />
-      <TestimonialsSection />
       <ContactSection />
       <Footer />
     </div>

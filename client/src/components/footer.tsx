@@ -17,7 +17,6 @@ export default function Footer() {
     { href: "#skills", label: "Skills" },
     { href: "#experience", label: "Experience" },
     { href: "#portfolio", label: "Portfolio" },
-    { href: "#testimonials", label: "Testimonials" },
     { href: "#contact", label: "Contact" },
   ];
 

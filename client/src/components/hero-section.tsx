@@ -1,5 +1,6 @@
 import { ChevronDown, Linkedin, Twitter, Github, Mail } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import profileImage from "@assets/immagine_1756048642034.png";
 
 export default function HeroSection() {
   const handleScrollToSection = (sectionId: string) => {
@@ -92,7 +93,7 @@ export default function HeroSection() {
           
           <div className="lg:flex justify-center items-center animate-float">
             <img 
-              src="@assets/immagine_1756048642034.png" 
+              src={profileImage} 
               alt="Leopoldo Rossi professional headshot" 
               className="rounded-full w-80 h-80 object-cover shadow-2xl border-4 border-white/20" 
               data-testid="hero-image"
