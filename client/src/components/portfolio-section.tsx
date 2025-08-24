@@ -1,4 +1,3 @@
-import { ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 export default function PortfolioSection() {
@@ -77,16 +76,10 @@ export default function PortfolioSection() {
                 <p className="text-gray-600 mb-6" data-testid={`project-description-${index}`}>
                   {project.description}
                 </p>
-                <div className="flex justify-between items-center">
+                <div className="flex justify-end items-center">
                   <div className="text-sm text-gray-500" data-testid={`project-timeline-${index}`}>
                     {project.timeline}
                   </div>
-                  <button 
-                    className="text-professional-accent hover:text-professional-navy font-medium transition-colors duration-300 flex items-center gap-2"
-                    data-testid={`project-case-study-${index}`}
-                  >
-                    View Case Study <ArrowRight className="w-4 h-4" />
-                  </button>
                 </div>
               </div>
             </div>
