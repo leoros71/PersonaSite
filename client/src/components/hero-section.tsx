@@ -92,8 +92,8 @@ export default function HeroSection() {
           
           <div className="lg:flex justify-center items-center animate-float">
             <img 
-              src="https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=800" 
-              alt="Professional headshot" 
+              src="@assets/immagine_1756048642034.png" 
+              alt="Leopoldo Rossi professional headshot" 
               className="rounded-full w-80 h-80 object-cover shadow-2xl border-4 border-white/20" 
               data-testid="hero-image"
             />
