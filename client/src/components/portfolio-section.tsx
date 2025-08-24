@@ -32,7 +32,8 @@ export default function PortfolioSection() {
       tagColor: "bg-purple-500",
       title: "Nano-Electronic pH Sensor",
       description: "Designed and developed an innovative nano-electronic pH sensor during research at Durham University, resulting in published research and patent applications in molecular electronics.",
-      timeline: "1999"
+      timeline: "1999",
+      link: "http://www.sciencedirect.com/science/article/pii/S138373030180034X"
     }
   ];
 
@@ -76,10 +77,21 @@ export default function PortfolioSection() {
                 <p className="text-gray-600 mb-6" data-testid={`project-description-${index}`}>
                   {project.description}
                 </p>
-                <div className="flex justify-end items-center">
+                <div className="flex justify-between items-center">
                   <div className="text-sm text-gray-500" data-testid={`project-timeline-${index}`}>
                     {project.timeline}
                   </div>
+                  {project.link && (
+                    <a 
+                      href={project.link}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-professional-accent hover:text-professional-navy font-medium transition-colors duration-300 text-sm"
+                      data-testid={`project-link-${index}`}
+                    >
+                      View Publication →
+                    </a>
+                  )}
                 </div>
               </div>
             </div>
