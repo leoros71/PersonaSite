@@ -2,7 +2,7 @@
 
 ## Overview
 
-This is a professional portfolio website for Alex Thompson, a Senior Business Strategist and Digital Innovation Leader. The application is built as a full-stack TypeScript project featuring a React frontend with a Node.js Express backend. The site showcases professional experience, skills, projects, and includes a contact form for potential clients or employers to reach out.
+This is a professional portfolio website for Leopoldo Rossi, a Financial Technology Expert and Software Developer. The application is built as a full-stack TypeScript project featuring a React frontend with a Node.js Express backend. The site showcases 25+ years of experience in electronic trading systems, algorithmic trading, financial markets technology, and includes a contact form for potential clients or employers to reach out.
 
 ## User Preferences
 

@@ -33,10 +33,10 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div>
             <div className="font-playfair font-bold text-2xl text-professional-accent mb-4" data-testid="footer-logo">
-              Alex Thompson
+              Leopoldo Rossi
             </div>
             <p className="text-gray-300 mb-4" data-testid="footer-description">
-              Strategic Business Leader driving transformation through innovation and data-driven insights.
+              Financial Technology Expert specializing in electronic trading systems and algorithmic trading solutions.
             </p>
             <div className="flex space-x-4" data-testid="footer-social-links">
               {socialLinks.map((social, index) => {
@@ -78,15 +78,15 @@ export default function Footer() {
               Contact Info
             </h4>
             <div className="space-y-2 text-gray-300" data-testid="footer-contact-info">
-              <div>San Francisco, CA</div>
-              <div>alex.thompson@email.com</div>
-              <div>+1 (555) 123-4567</div>
+              <div>Pisa, Italy</div>
+              <div>rossi.leopoldo@gmail.com</div>
+              <div>+39 389 9215666</div>
             </div>
           </div>
         </div>
         
         <div className="border-t border-gray-700 mt-8 pt-8 text-center text-gray-300" data-testid="footer-copyright">
-          <p>&copy; 2024 Alex Thompson. All rights reserved.</p>
+          <p>&copy; 2024 Leopoldo Rossi. All rights reserved.</p>
         </div>
       </div>
     </footer>

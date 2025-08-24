@@ -67,17 +67,17 @@ export default function ContactSection() {
     {
       icon: Mail,
       label: "Email",
-      value: "alex.thompson@email.com"
+      value: "rossi.leopoldo@gmail.com"
     },
     {
       icon: Phone,
       label: "Phone",
-      value: "+1 (555) 123-4567"
+      value: "+39 389 9215666"
     },
     {
       icon: MapPin,
       label: "Location",
-      value: "San Francisco, CA"
+      value: "Pisa, Italy"
     }
   ];
 
@@ -89,7 +89,7 @@ export default function ContactSection() {
             Let's Work Together
           </h2>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto" data-testid="contact-subtitle">
-            Ready to transform your business? Let's discuss how we can achieve your strategic objectives.
+            Ready to enhance your trading systems? Let's discuss how my expertise can optimize your financial technology infrastructure.
           </p>
         </div>
         
@@ -100,7 +100,7 @@ export default function ContactSection() {
                 Get In Touch
               </h3>
               <p className="text-gray-300 text-lg leading-relaxed mb-8" data-testid="contact-description">
-                I'm always interested in discussing new opportunities and challenges. Whether you're looking to transform your organization or explore strategic partnerships, I'd love to hear from you.
+                I'm always interested in discussing new opportunities in financial technology. Whether you need expertise in electronic trading systems, algorithmic trading, or platform architecture, I'd love to hear from you.
               </p>
             </div>
             

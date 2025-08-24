@@ -31,13 +31,13 @@ export default function HeroSection() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div className="animate-slide-up">
             <h1 className="font-playfair text-4xl md:text-5xl lg:text-6xl font-bold mb-6" data-testid="hero-title">
-              Hello, I'm <span className="text-gradient">Alex Thompson</span>
+              Hello, I'm <span className="text-gradient">Leopoldo Rossi</span>
             </h1>
             <p className="text-xl md:text-2xl text-gray-300 mb-8" data-testid="hero-subtitle">
-              Senior Business Strategist & Digital Innovation Leader
+              Financial Technology Expert & Software Developer
             </p>
             <p className="text-lg text-gray-400 mb-8 leading-relaxed" data-testid="hero-description">
-              Transforming business challenges into strategic opportunities through innovative solutions and data-driven insights.
+              Specializing in electronic trading systems, algorithmic trading solutions, and financial markets technology with 25+ years of experience.
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 mb-8">

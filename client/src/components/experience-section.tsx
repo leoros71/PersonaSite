@@ -1,29 +1,45 @@
-import { Briefcase, TrendingUp, Rocket } from "lucide-react";
+import { TrendingUp, Building2, Code, Briefcase, GraduationCap } from "lucide-react";
 
 export default function ExperienceSection() {
   const experiences = [
     {
-      icon: Briefcase,
-      title: "Senior Strategy Director",
-      company: "Global Tech Solutions Inc.",
-      period: "2021 - Present",
-      description: "Led digital transformation initiatives for Fortune 500 clients, resulting in 35% average efficiency improvements and $50M+ in cost savings.",
+      icon: TrendingUp,
+      title: "Ion Marketview Consultant",
+      company: "BBVA",
+      period: "Feb 2022 - Present",
+      description: "ION TRADING specialist providing Level 1&2 support, infrastructure development, topology design, platform reviews, and component upgrades for production environments.",
       side: "right"
     },
     {
-      icon: TrendingUp,
-      title: "Business Strategy Manager",
-      company: "Innovation Dynamics Corp.",
-      period: "2018 - 2021",
-      description: "Developed and executed strategic plans for emerging market expansion, achieving 150% revenue growth and market penetration in 12 new territories.",
+      icon: GraduationCap,
+      title: "IT Teacher",
+      company: "High School",
+      period: "2020 - Feb 2022",
+      description: "Teaching full-time Information Technology at high school level, developing curriculum and mentoring students in programming and computer science fundamentals.",
       side: "left"
     },
     {
-      icon: Rocket,
-      title: "Project Manager",
-      company: "StartUp Accelerator Hub",
-      period: "2015 - 2018",
-      description: "Managed cross-functional teams for high-impact projects, delivering solutions on time and under budget while maintaining exceptional quality standards.",
+      icon: Code,
+      title: "E-Trading Architect",
+      company: "CA-CIB",
+      period: "May 2010 - Aug 2017",
+      description: "Managed architectural and technical projects for Fixed Income e-Trading platform across London, Paris, NY, Singapore, Tokyo, and Dubai. Led platform migrations and performance optimizations.",
+      side: "right"
+    },
+    {
+      icon: Building2,
+      title: "Business Analyst & Software Developer",
+      company: "ION TRADING",
+      period: "Apr 2001 - Apr 2010",
+      description: "Managed complete lifecycle of market gateways and trading tools. Developed multi-threaded server applications for real-time financial data processing including LIFFE, CBOT, ICE, EURONEXT gateways.",
+      side: "left"
+    },
+    {
+      icon: Briefcase,
+      title: "Product Engineer",
+      company: "MICROTEST",
+      period: "1999 - Apr 2001",
+      description: "Consultant at STMicroelectronics, programming testers in C language. Worked across Munich, Regensburg, and Toulouse design centers and production facilities.",
       side: "right"
     }
   ];

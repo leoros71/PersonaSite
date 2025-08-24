@@ -1,42 +1,42 @@
-import { Crown, Monitor, TrendingUp, CheckSquare, RotateCcw, Handshake } from "lucide-react";
+import { Code2, TrendingUp, Zap, Database, Settings, Globe } from "lucide-react";
 
 export default function SkillsSection() {
   const skills = [
     {
-      icon: Crown,
-      title: "Strategic Planning",
-      description: "Long-term vision development and roadmap creation for sustainable business growth.",
-      tags: ["Vision Development", "Roadmapping"]
-    },
-    {
-      icon: Monitor,
-      title: "Digital Transformation",
-      description: "Leading organizations through technology adoption and digital modernization initiatives.",
-      tags: ["Process Automation", "Digital Strategy"]
+      icon: Code2,
+      title: "Software Development",
+      description: "Expert in C++, Java, and financial software development with 25+ years of experience.",
+      tags: ["C/C++", "Java", "Multi-threading"]
     },
     {
       icon: TrendingUp,
-      title: "Data Analytics",
-      description: "Transforming complex data into actionable insights for informed decision-making.",
-      tags: ["Business Intelligence", "Predictive Analytics"]
+      title: "Algorithmic Trading",
+      description: "Developed custom trading platforms and algorithmic strategies for high-frequency trading.",
+      tags: ["HFT", "Trading Algorithms", "Risk Management"]
     },
     {
-      icon: CheckSquare,
-      title: "Project Management",
-      description: "Expert in agile methodologies and cross-functional team leadership.",
-      tags: ["Agile/Scrum", "Team Leadership"]
+      icon: Zap,
+      title: "Electronic Trading Systems",
+      description: "Deep expertise in ION Trading platforms and electronic trading infrastructure.",
+      tags: ["ION Trading", "Market Gateways", "Real-time Processing"]
     },
     {
-      icon: RotateCcw,
-      title: "Change Management",
-      description: "Facilitating smooth organizational transitions and cultural transformation.",
-      tags: ["Organizational Design", "Culture Change"]
+      icon: Database,
+      title: "Financial Markets",
+      description: "Extensive knowledge of futures, options, bonds, and derivatives across global markets.",
+      tags: ["LIFFE", "EUREX", "Fixed Income"]
     },
     {
-      icon: Handshake,
-      title: "Business Development",
-      description: "Identifying growth opportunities and building strategic partnerships.",
-      tags: ["Market Analysis", "Partnership Strategy"]
+      icon: Settings,
+      title: "System Architecture",
+      description: "Designed and implemented large-scale distributed trading systems and platforms.",
+      tags: ["Distributed Systems", "Performance Tuning", "Infrastructure"]
+    },
+    {
+      icon: Globe,
+      title: "Market Connectivity",
+      description: "Built connections to major exchanges and electronic communication networks worldwide.",
+      tags: ["Market Data", "FIX Protocol", "Trading APIs"]
     }
   ];
 

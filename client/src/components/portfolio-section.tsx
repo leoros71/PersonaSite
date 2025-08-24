@@ -4,36 +4,36 @@ import { Button } from "@/components/ui/button";
 export default function PortfolioSection() {
   const projects = [
     {
-      image: "https://images.unsplash.com/photo-1556745757-8d76bdb6984b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=400",
-      tag: "Digital Transformation",
+      image: "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=400",
+      tag: "Algorithmic Trading",
       tagColor: "bg-professional-accent",
-      title: "Enterprise Digital Modernization",
-      description: "Spearheaded a comprehensive digital transformation for a multinational corporation, implementing cloud infrastructure and automation solutions that reduced operational costs by 40%.",
-      timeline: "6-month timeline"
+      title: "High Frequency Trading Platform",
+      description: "Developed from scratch a custom trading platform in Java with simulation environment, live market data gateway to Borsa Italiana, and algorithmic trading capabilities with Monte Carlo simulation.",
+      timeline: "2018-2020"
     },
     {
-      image: "https://images.unsplash.com/photo-1542744173-8e7e53415bb0?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=400",
-      tag: "Market Expansion",
+      image: "https://images.unsplash.com/photo-1642790551116-18e150f248e3?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=400",
+      tag: "Trading Infrastructure",
       tagColor: "bg-green-500",
-      title: "Global Market Entry Strategy",
-      description: "Developed and executed market entry strategies for emerging economies, resulting in successful expansion into 8 new markets and 200% revenue growth.",
-      timeline: "12-month timeline"
+      title: "CA-CIB Fixed Income Platform",
+      description: "Managed architectural projects for global e-Trading platform across 6 regions. Migrated platform to tree architecture, optimized topology, and implemented performance monitoring systems.",
+      timeline: "2010-2017"
     },
     {
-      image: "https://images.unsplash.com/photo-1553028826-f4804a6dba3b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=400",
-      tag: "Innovation",
+      image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=400",
+      tag: "Market Gateways",
       tagColor: "bg-blue-500",
-      title: "Innovation Lab Setup",
-      description: "Established corporate innovation labs focusing on emerging technologies, leading to 15 patents and 3 breakthrough product launches.",
-      timeline: "9-month timeline"
+      title: "ION Trading Gateways",
+      description: "Developed multiple market gateways in C++ and Java for major exchanges including LIFFE, CBOT, ICE, EURONEXT. Implemented algorithmic trading components and real-time data processing systems.",
+      timeline: "2001-2010"
     },
     {
-      image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=400",
-      tag: "Organizational Design",
+      image: "https://images.unsplash.com/photo-1518186285589-2f7649de83e0?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=400",
+      tag: "Innovation",
       tagColor: "bg-purple-500",
-      title: "Organizational Restructuring",
-      description: "Led comprehensive organizational restructuring initiative that improved operational efficiency by 35% while maintaining employee satisfaction scores above 85%.",
-      timeline: "4-month timeline"
+      title: "Nano-Electronic pH Sensor",
+      description: "Designed and developed an innovative nano-electronic pH sensor during research at Durham University, resulting in published research and patent applications in molecular electronics.",
+      timeline: "1999"
     }
   ];
 
