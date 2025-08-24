@@ -21,10 +21,10 @@ export default function Footer() {
   ];
 
   const socialLinks = [
-    { icon: Linkedin, href: "#", label: "LinkedIn" },
+    { icon: Linkedin, href: "https://www.linkedin.com/in/leopoldo-rossi-5b980614", label: "LinkedIn" },
     { icon: Twitter, href: "#", label: "Twitter" },
     { icon: Github, href: "#", label: "GitHub" },
-    { icon: Mail, href: "#", label: "Email" },
+    { icon: Mail, href: "mailto:rossi.leopoldo@gmail.com", label: "Email" },
   ];
 
   return (
@@ -45,6 +45,8 @@ export default function Footer() {
                   <a
                     key={index}
                     href={social.href}
+                    target={social.href.startsWith('http') ? '_blank' : '_self'}
+                    rel={social.href.startsWith('http') ? 'noopener noreferrer' : undefined}
                     className="text-gray-300 hover:text-professional-accent transition-colors duration-300"
                     data-testid={`footer-social-${social.label.toLowerCase()}`}
                   >

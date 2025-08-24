@@ -61,7 +61,9 @@ export default function HeroSection() {
             
             <div className="flex space-x-6" data-testid="social-links">
               <a 
-                href="#" 
+                href="https://www.linkedin.com/in/leopoldo-rossi-5b980614" 
+                target="_blank"
+                rel="noopener noreferrer"
                 className="text-gray-300 hover:text-professional-accent transition-colors duration-300 transform hover:scale-110"
                 data-testid="link-linkedin"
               >

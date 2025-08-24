@@ -125,7 +125,9 @@ export default function ContactSection() {
               <h4 className="font-semibold text-lg mb-4">Follow Me</h4>
               <div className="flex space-x-4" data-testid="contact-social-links">
                 <a 
-                  href="#" 
+                  href="https://www.linkedin.com/in/leopoldo-rossi-5b980614" 
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="bg-white/10 hover:bg-professional-accent p-3 rounded-lg transition-all duration-300 transform hover:scale-110"
                   data-testid="contact-linkedin"
                 >
