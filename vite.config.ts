@@ -3,12 +3,10 @@ import react from "@vitejs/plugin-react";
 import path from "path";
 import { fileURLToPath } from 'url';
 
-// Per risolvere __dirname in ES modules
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = path.dirname(__filename);
+const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
 export default defineConfig({
-  base: process.env.NODE_ENV === 'production' ? '/PersonaSite/' : '/',
+  base: '/PersonaSite/',
   plugins: [react()],
   resolve: {
     alias: {
@@ -21,11 +19,5 @@ export default defineConfig({
   build: {
     outDir: path.resolve(__dirname, "dist"),
     emptyOutDir: true,
-  },
-  server: {
-    fs: {
-      strict: false,
-      allow: [".."],
-    },
-  },
+  }
 });
